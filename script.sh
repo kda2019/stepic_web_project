@@ -1,2 +1,2 @@
-sudo ln -sf etc/nginx.conf  /etc/nginx/sites-enabled/default
-sudo nginx -s restart
+sudo rm /etc/nginx/sites-enabled
+sudo cp etc/nginx.conf rm /etc/nginx/sites-enabled/default
